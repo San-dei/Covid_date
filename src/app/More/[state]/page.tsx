@@ -1,3 +1,5 @@
+import More_information from "@/components/More_information";
+
 interface Props{
   params:{
     state:string,
@@ -20,8 +22,7 @@ const Page = async ({params}:Props) =>{
   const showResult =await dinamicData(state);
 
   return <>
-    {showResult.state}
-    {showResult.positive}
+    <More_information data={showResult}/>
   </>
 }
 

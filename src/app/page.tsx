@@ -1,9 +1,9 @@
-import RenderApi from "@/api/RenderApi";
+import CardsApi from "@/utils/CardsApi";
 
 export default function Home() {
   return (
     <>
-      <RenderApi/>
+      <CardsApi/>
     </>
   );
 }

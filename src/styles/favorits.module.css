@@ -1,0 +1,39 @@
+.favorits{
+  background-color: var(--oscuro);
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+  padding: 4px;
+
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+}
+
+.favorits_card{
+  background-color: var(--intermedio);
+  height: 8rem;
+  border-radius: 4px;
+  padding: 4px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.favorits_link{
+  color: aliceblue;
+}
+
+.favorits_noCards{
+  background-color: var(--intermedio);
+  color: aliceblue;
+  width: 100%;
+  height: 100vh;
+  font-size: 28px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
