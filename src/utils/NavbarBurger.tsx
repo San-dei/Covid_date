@@ -14,7 +14,7 @@ const NavbarBurger = () => {
 
   return (
     <header className={styles.header}>
-      <div className={styles.logo}>Covid-19</div>
+      <div className={styles.logo}><Link href={"/"}>Covid-19</Link></div>
 
       <button className={styles.burger} onClick={handleEvent}>
         <FiAlignJustify className={styles.burger}/>
