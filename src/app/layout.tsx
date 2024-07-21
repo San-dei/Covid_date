@@ -12,8 +12,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Estadísticas COVID-19 en Estados Unidos",
     description: "Consulta estadísticas actualizadas sobre COVID-19 en todos los estados de Estados Unidos. Encuentra datos detallados y análisis por estado.",
-  },
-  viewport: "width=device-width, initial-scale=1",
+  }
 };
 
 export default function RootLayout({
