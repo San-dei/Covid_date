@@ -1,7 +1,7 @@
 import ShowOrNo from "@/utils/ShowOrNo";
 import styles from "../../styles/about.module.css";
 
-const Page = () => {
+const About = () => {
   return (
     <>
       <div className={styles.container}>
@@ -228,4 +228,4 @@ const Page = () => {
   );
 };
 
-export default Page;
+export default About;
