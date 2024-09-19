@@ -36,7 +36,7 @@ const Favorit = () => {
                   </ul>
                 </Link>
 
-                <button onClick={() => deleting(item)}>Eliminar</button>
+                <button onClick={() => deleting(item)} className={styles.buttonDelete}>Eliminar</button>
               </div>
             </div>
           ))}

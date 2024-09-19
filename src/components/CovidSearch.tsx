@@ -1,7 +1,7 @@
 'use client'
 import { DateCovid } from "@/interface/main"
 import { ChangeEvent, useEffect, useState } from "react"
-import styles from "../styles/navbar.module.css"
+import styles from "../styles/covidSearch.module.css"
 import Link from "next/link"
 
 const CovidSearch = () => {

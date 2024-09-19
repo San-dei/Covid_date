@@ -7,8 +7,8 @@
 }
 
 :root {
-  --muy-oscuro: #070f2b;
-  --oscuro: #1b1a55;
-  --intermedio: #535c91;
-  --claro: #9290c3;
+  --color-primario: #070f2b;
+  --color-secundario: #1b1a55;
+  --color-terciario: #535c91;
+  --color-cuaternario: #9290c3;
 }
