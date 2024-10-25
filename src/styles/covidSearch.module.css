@@ -31,7 +31,7 @@
   overflow-y: auto;
   margin-top: 10px;
   padding: 0;
-  z-index: 1000;
+  z-index: 1050; /* Asegúrate de que esté por encima del navbar */
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -71,6 +71,14 @@
   .search {
     font-size: 0.9rem;
     padding: 8px 12px;
+  }
+
+  .search_ul {
+    position: fixed; /* Fija el contenedor en la pantalla para evitar el recorte */
+    top: 260px; /* Ajusta según la altura de tu navbar */
+    left: 10px; /* Margen para ajustarse al borde */
+    right: 10px; /* Margen para ajustarse al borde */
+    max-width: calc(100% - 20px); /* Asegura que no se salga del contenedor */
   }
 
   .search_li {
